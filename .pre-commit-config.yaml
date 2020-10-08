@@ -17,7 +17,7 @@ repos:
         args: ["-ll"]
         files: .py$
   - repo: https://github.com/PyCQA/isort
-    rev: 5.4.2
+    rev: 5.6.1
     hooks:
       - id: isort
   - repo: https://github.com/pre-commit/mirrors-mypy
